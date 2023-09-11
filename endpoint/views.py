@@ -18,7 +18,7 @@ def index(request):
         "current_day": datetime.now().strftime("%A"),
         "utc_time": utc,
         "track": track,
-        "github_file_url": "https://github.com/Bla-vk/Stage_One/blob/main/endpoint/views.py",
+        "github_file_url": "https://github.com/Bla-vk/Stage_One/edit/main/endpoint/views.py",
         "github_repo_url": "https://github.com/Bla-vk/Stage_One",
         "status_code": HTTPStatus.OK,
     }
